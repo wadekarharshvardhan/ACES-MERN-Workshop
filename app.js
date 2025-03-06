@@ -27,7 +27,7 @@ const responseSchema = new mongoose.Schema({
   message: String,
 });
 
-const Response = mongoose.model("Response", responseSchema);
+const Response = mongoose.model("Harshvardhan", responseSchema);
 
 app.get("/", (req, res) => {
   res.render("index");
